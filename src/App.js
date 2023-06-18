@@ -4,7 +4,7 @@ import './index.css';
 function App() {
 
   const [images, setImages] = useState("");
-  const [input, setInput] = useState("hong kong");
+  const [input, setInput] = useState("seoul");
 
   useEffect(() => {
     getImages()
